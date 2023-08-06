@@ -1,9 +1,10 @@
+import Home from "./Pages/Home";
 
 
 function App() {
   return (
     <>
-    Hello from client side
+    <Home/>
     </>
   );
 }
