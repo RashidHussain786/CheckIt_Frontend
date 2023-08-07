@@ -46,7 +46,7 @@ const NavBar = () => {
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
               sx={{
-                bgcolor: hoverIndex === index ? '#1a1a70' : 'transparent',
+                bgcolor: hoverIndex === index ? '#062b5a' : 'transparent',
                 transition: 'background-color 0.3s ease',
                 cursor:'pointer',
                 padding: '8px',
