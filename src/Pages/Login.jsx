@@ -12,7 +12,7 @@ import {
 const Login = () => {
   const paperStyle = {
     padding: 30,
-    height: "65vh",
+    minHeight: "65vh",
     width: 300,
     margin: "40px auto",
     background: "linear-gradient(45deg, #CE9FFC 60%, #7367F0 90%)",
