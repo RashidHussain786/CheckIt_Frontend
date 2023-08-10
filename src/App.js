@@ -1,6 +1,7 @@
 import Home from "./Pages/Home";
 import Login from "./Pages/Login"
 import Register from "./Pages/Register";
+import Taskmanager from "./Pages/Taskmanager";
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <>
     {/* <Home/> */}
     {/* <Login/> */}
-    <Register/>
+    {/* <Register/> */}
+    <Taskmanager/>
     
     </>
   );
