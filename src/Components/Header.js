@@ -46,7 +46,7 @@ const Header = () => {
             flexDirection: { xs: 'column', sm: 'row' },
           }}
         >
-          <StatusCard name="Compilted" description="Task" status="08" />
+          <StatusCard name="Completed" description="Task" status="08" />
           <StatusCard name="Pending" description="Task" status="03" />
           <StatusCard name="Unread" description="Messages" status="07" />
           <StatusCard name="Remaining" description="Billing" status="09" />
