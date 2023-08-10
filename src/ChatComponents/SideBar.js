@@ -74,7 +74,7 @@ const SideBar = () => {
           />
         </Box>
       </Box>
-      <Box>
+      <Box sx={{maxHeight: 'calc(100vh - 150px)',overflowY: 'auto',mt: '16px','&::-webkit-scrollbar': {width: '0.4em',},}}>
       <ChatCard pic="./Assets/Image.jpg" name="Rashid Hussain" time="just now" message="Hello how are you."/>
       <ChatCard pic="./Assets/Image.jpg" name="Rashid Hussain" time="09:30" message="Hello how are you."/>
       <ChatCard pic="./Assets/Image.jpg" name="Rashid Hussain" time="01:20" message="Hello how are you."/>
@@ -83,6 +83,8 @@ const SideBar = () => {
       <ChatCard pic="./Assets/Image.jpg" name="Rashid Hussain" time="12:33" message="Hello how are you."/>
       <ChatCard pic="./Assets/Image.jpg" name="Rashid Hussain" time="09:12" message="Hello how are you."/>
       <ChatCard pic="./Assets/Image.jpg" name="Rashid Hussain" time="11:12" message="Hello how are you."/>
+      <ChatCard pic="./Assets/Image.jpg" name="Rashid Hussain" time="just now" message="Hello how are you."/>
+      <ChatCard pic="./Assets/Image.jpg" name="Rashid Hussain" time="just now" message="Hello how are you."/>
       <ChatCard pic="./Assets/Image.jpg" name="Rashid Hussain" time="just now" message="Hello how are you."/>
     </Box>
     </Box>
