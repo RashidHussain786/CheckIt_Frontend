@@ -1,5 +1,6 @@
 import React from "react";
 import Paper from "@mui/material/Paper";
+import NavBar from "../Components/NavBar"
 import {
   Button,
   Checkbox,
@@ -12,15 +13,16 @@ import {
 const Login = () => {
   const paperStyle = {
     padding: 30,
-    minHeight: "65vh",
+    minHeight: "45vh",
     width: 300,
     margin: "40px auto",
-    background: "linear-gradient(45deg, #CE9FFC 60%, #7367F0 90%)",
+    backgroundColor:'rgb(165 204 255)'
   };
 
   const btnstyle = { margin: "8px 0" };
   return (
     <>
+    <NavBar/>
       <Grid>
         <Paper elevation={20} style={paperStyle}>
           <Grid align="center">

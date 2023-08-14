@@ -3,6 +3,7 @@ import React from 'react'
 import NavBar from '../ChatComponents/NavBar'
 import SideBar from '../ChatComponents/SideBar'
 import ChatSection from '../ChatComponents/ChatSection'
+import AppBar from '../ChatComponents/AppBar'
 
 const Chat = () => {
   return (
@@ -11,6 +12,7 @@ const Chat = () => {
     <NavBar/>
     <SideBar/>
     <ChatSection/>
+    <AppBar/>
     </Box>
     </>
   )
