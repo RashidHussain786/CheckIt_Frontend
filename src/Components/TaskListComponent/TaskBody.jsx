@@ -1,7 +1,8 @@
-import {  Grid, Typography } from "@mui/material";
+import {  Button, Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import TaskCard from "./TaskCard";
+import Profile from "./Profile";
 
 const TaskBody = () => {
   const renderMyCard = () => {
@@ -14,7 +15,7 @@ const TaskBody = () => {
 
   return (
     <Grid container spacing={5}>
-      <Grid item xs={12} md={7} lg={8}>
+      <Grid item xs={12} md={7} lg={8} >
         <Box
           sx={{
             display: "flex",
@@ -39,9 +40,9 @@ const TaskBody = () => {
               boxSizing: "border-box",
             }}
           >
-            {/* <Box sx={{display:'flex',alignItems:'center',justifyContent:'right',my:'10px',mr:'20px'}}> 
-            <Button color="inherit" size="large" variant="outlined">Button</Button>
-            </Box> */}
+            <Box sx={{display:'flex',alignItems:'center',justifyContent:'right',my:'10px',mr:'20px'}}> 
+            <Button  size="large" variant="contained" sx={{color:'black',bgcolor:'rgba(255 ,255, 255 ,0.3)'}}>Add Task</Button>
+            </Box>
             <Grid container>{renderMyCard()}</Grid>
           </Box>
         </Box>
@@ -61,18 +62,26 @@ const TaskBody = () => {
             elevation={10}
             sx={{
               minWidth: "100%",
-              minHeight: "80vh",
+              minHeight: "88vh",
               width: "50%",
-              height: "80vh",
               borderRadius: "12px",
               bgcolor:'rgb(165 204 255/5%)',
               display: "flex",
               justifyContent: "center",
-              alignItems: "center",
               boxSizing: "border-box",
+              p:'2rem',
+              
             }}
           >
-            <Typography>Profile information</Typography>
+            <Profile
+              pic="./Assets/sid.jpeg"
+              name="Siddhant Kashyap"
+              username="Siddhant-Kashyap · he/him"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              followers="3"
+              following="5"
+            />
+
           </Box>
         </Box>
       </Grid>
