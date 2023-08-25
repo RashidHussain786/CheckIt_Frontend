@@ -24,7 +24,7 @@ const SideBar = () => {
   };
 
   return (
-    <Box width="26.25rem">
+    <Box >
       <Box sx={{ p: '12px' }}>
         <Box sx={{display: 'flex',flexDirection: 'row',justifyContent: 'space-between',alignItems: 'center',}}>
           <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
@@ -43,7 +43,7 @@ const SideBar = () => {
           <Box sx={{position: 'relative' }}
             onClick={handleDropdownToggle}
           >
-          <Typography variant="body1" sx={{border: '1px solid #ffffff78',py: '7px',px: '20px',mr: '0.75rem',display: 'flex', alignItems: 'center', cursor: 'pointer', }} >
+          <Typography variant="body1" sx={{border: '1px solid #ffffff78',py: '7px',px: '10px',mr: '0.75rem',display: 'flex', alignItems: 'center', cursor: 'pointer', }} >
               {selectedOption}
               <IconButton color="inherit" sx={{ p: '0px', pl: '6px' }}>
                 <ArrowDropDown />

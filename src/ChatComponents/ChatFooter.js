@@ -21,8 +21,8 @@ const ChatFooter = () => {
              </Box>
             )
             }
-    <Box sx={{position:'fixed',bottom:0,borderTop:'0.7px solid #ffffff78',width:1340,minHeight:70,display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-    <InputBase  placeholder="Type Your Message here ..." sx={{ color: 'white', py: '3px', pl: '12px',  pr: '12px',  width: '95%'}}
+    <Box sx={{bottom:0,borderTop:'0.7px solid #ffffff78',minHeight:70,display:'flex',justifyContent:'space-between',alignItems:'center',width:'100%'}}>
+    <InputBase  placeholder="Type Your Message here ..." sx={{color: 'white', py: '3px', pl: '12px',  pr: '12px',width:'100%'}}
             endAdornment={<Mood sx={{ cursor: 'pointer' }} />}
             startAdornment={<AddCircleOutline sx={{ cursor: 'pointer' ,mr:2}} onClick={handleDropdownToggle}/>}/> 
             
