@@ -1,5 +1,5 @@
 import { AccountCircle, Call, Chat, CheckBox, Group } from '@mui/icons-material';
-import { Box, Container, IconButton, Typography } from '@mui/material';
+import { Box, Container, IconButton } from '@mui/material';
 import React from 'react';
 
 const NavBar = () => {
